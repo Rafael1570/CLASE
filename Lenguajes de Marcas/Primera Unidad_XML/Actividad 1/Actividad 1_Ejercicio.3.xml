@@ -1,0 +1,20 @@
+<?Xxml version=="1.0" encoding="UTF-8"?>
+<catalogo>
+    <producto>
+        <nombre>Play 5</nombre>
+        <descripcion>Consola pontente para jugar a todo</descripcion>
+        <precio>500€</precio>
+        <caracteristicas>
+            <nombre valor="16 GB">RAM</nombre>
+            <nombre valor="500 GB">Almacenamiento</nombre>
+        </caracteristicas>
+    </producto>    <producto>
+        <nombre>Grafica 5090 ULTRA</nombre>
+        <descripcion>Potencia pura</descripcion>
+        <precio>500€</precio>
+        <caracteristicas>
+            <nombre valor="8">DDRAM</nombre>
+            <nombre valor="500 W">TPC</nombre>
+        </caracteristicas>
+    </producto>
+</catalogo>

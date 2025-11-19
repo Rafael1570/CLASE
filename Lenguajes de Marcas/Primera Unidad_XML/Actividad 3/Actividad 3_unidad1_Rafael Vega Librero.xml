@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Instituto nombre="IES ALIXAR" Dirección="Av. de la Unidad, 5, 41950 Castilleja de la Cuesta, Sevilla">
+    <alumnos>
+        <alumno>
+            <nombre>María</nombre>
+            <apellidos>López García</apellidos>
+            <fechaNacimiento>2006-03-15</fechaNacimiento>
+        </alumno>
+        <alumno>
+            <nombre>Carlos</nombre>
+            <apellidos>Martínez Ruiz</apellidos>
+            <fechaNacimiento>2005-11-02</fechaNacimiento>
+        </alumno>
+        <alumno>
+            <nombre>Ana</nombre>
+            <apellidos>Fernández Torres</apellidos>
+            <fechaNacimiento>2006-07-21</fechaNacimiento>
+        </alumno>
+    </alumnos>
+    <profesores>
+        <profesor>
+            <nombre>Pablo</nombre>
+            <apellidos>Castillo Peña</apellidos>
+            <especialidad>Lenguajes de Marcas</especialidad>
+        </profesor>
+        <profesor>
+            <nombre>Miguel</nombre>
+            <apellidos>Sánchez Moreno</apellidos>
+            <especialidad>Programación</especialidad>
+        </profesor>
+    </profesores>
+</Instituto>

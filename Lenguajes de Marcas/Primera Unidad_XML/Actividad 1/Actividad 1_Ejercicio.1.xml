@@ -1,0 +1,17 @@
+<?Xxml version=="1.0" encoding="UTF-8"?>
+<mensaje>
+    <remite>
+        <nombre>Pepe Garcia</nombre>
+        <email>Periquillo@gmail.com</email>
+    </remite>
+    <destinatario>
+        <nombre>Bea Crotés</nombre>
+        <email>beatriz.cortes@medac.es</email>
+    </destinatario>
+    <asunto>Hola Bea</asunto>
+    <texto>
+        <parrafo>¿Hola que tal?</parrafo>
+        <parrafo>Hace mucho timepo que no escribes, a ver si te llamo</parrafo>
+        <parrafo>Un saludo</parrafo>
+    </texto>
+</mensaje>

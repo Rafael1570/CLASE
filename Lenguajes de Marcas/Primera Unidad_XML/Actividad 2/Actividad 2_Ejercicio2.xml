@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<cancion>
+    <duracion>4:47</duracion>
+    <anio>2008</anio>
+    <titulo>
+        <p1>Give it 2 me</p1>
+    </titulo>
+    <compositores>
+        <compositor>
+            <nombres>
+                <p1>Pharrell</p1>
+            </nombres>
+            <apellido>
+                <p1>Williams</p1>
+            </apellido>
+        </compositor>
+    </compositores>
+    <productores>
+        <productor>
+            <nombres>
+                <p1>Pharrell</p1>
+            </nombres>
+            <apellido>
+                <p1>Williams</p1>
+            </apellido>
+        </productor>
+    </productores>
+    <sello>
+        <p1>Warner Bros Records</p1>
+    </sello>
+    <artista>
+        <p1>Madonna</p1>
+    </artista>
+</cancion>

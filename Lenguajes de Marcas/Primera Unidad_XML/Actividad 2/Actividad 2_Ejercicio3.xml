@@ -1,0 +1,57 @@
+   
+
+
+<modulo nombre="Lenguajes de Marcas y Sistemas de Gestión de Información"
+        horasSemanales="4"
+        obligatorio="sí">
+
+    <periodo>
+        <inicio>15-09-2023</inicio>
+        <fin>30-06-2023</fin>
+    </periodo>
+
+    <alumnos>
+
+        <alumno>
+            <nombre>José Castillo Peñalver</nombre>
+            <dni>16965696L</dni>
+            <telefono>789654321</telefono>
+            <email>josecp@hotmail.com</email>
+            <direccion>C/ El Capote, 13, Granada, CP 18000</direccion>
+            <faltas>No registradas</faltas>
+            <nota>No registrada</nota>
+        </alumno>
+
+        <alumno>
+            <nombre>Rosa Fernández Corrales</nombre>
+            <dni>98765432H</dni>
+            <telefono>656566555</telefono>
+            <email>rosadelosrosales@yahoo.com</email>
+            <direccion>Avd. El Pez, 5, Suances, CP 39401</direccion>
+            <faltas>0</faltas>
+            <nota>apto</nota>
+        </alumno>
+
+        <alumno>
+            <nombre>María López García</nombre>
+            <dni>12345678A</dni>
+            <telefono>600123456</telefono>
+            <email>maria.lopez@gmail.com</email>
+            <direccion>C/ Olivo, 21, Sevilla, CP 41001</direccion>
+            <faltas>2</faltas>
+            <nota>7.5</nota>
+        </alumno>
+
+        <alumno>
+            <nombre>Jose Maria Gomez Velez</nombre>
+            <dni>23456789B</dni>
+            <telefono>611987654</telefono>
+            <email>jmgove@gmail.com</email>
+            <direccion>Plaza Nueva, 3, Madrid, CP 28001</direccion>
+            <faltas>0</faltas>
+            <nota>sobresaliente</nota>
+        </alumno>
+
+    </alumnos>
+
+</modulo>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Ejercicio 3-->
+<pokedex>
+    <pokemon nombre="pikachu" especie="pika" tipo="rayo" nvl="25">
+        <descipcion>Es un pokemon electrico que es capaz de soltar pontentes descargas electicas para neutralizar al rival</descipcion>
+        <estadisticas>
+            <hp>350</hp>
+            <ataque>200</ataque>
+            <defensa>100</defensa>
+            <velocidad>50</velocidad>
+        </estadisticas>
+        <habilidades>
+            <habilidad nombre="cola voltio" nvl="3">
+                <tipos>
+                    <tipo>rayo</tipo>
+                </tipos>
+                <descripcion>Es una habilidad en la que pikachu concentra una gran cantidad de energia en la punta de la cola para luego soltarla provocando una gran descarga</descripcion>
+            </habilidad>
+            <habilidad nombre="impacto trueno" nvl="4">
+                <tipos>
+                    <tipo>rayo</tipo>
+                </tipos>
+                <descrpcion>Pikachu es capaz de lanzar un trueno que deja inmovil a los enemigos por un corto periodo de tiempo</descrpcion>
+            </habilidad>
+        </habilidades>
+    </pokemon>
+    <pokemon nombre="Charmander" especie="dragon" tipo="fuego" nvl="60">
+        <descipcion>Charmander es un dragon imponente que con sus grandes alas puede recorrer gran distancia en poco tiempo y ademas puede arrasar con todo lo que se encuentre por su gran potencia de fuego</descipcion>
+        <estadisticas>
+            <hp>600</hp>
+            <ataque>400</ataque>
+            <defensa>100</defensa>
+            <velocidad>30</velocidad>
+        </estadisticas>
+        <habilidades>
+            <habilidad nombre="bola fuego" nvl="5">
+                <tipos>
+                    <tipo>fuego</tipo>
+                </tipos>
+                <descripcion>Charmander suelta una gran bola de fuego con una gran temperatura que quema todo a su alrededor</descripcion>
+            </habilidad>
+            <habilidad nombre="batido de alas" nvl="6">
+                <tipos>
+                    <tipo>viento</tipo>
+                </tipos>
+                <descrpcion>Charmander con sus grandes alas empieza a vatirlas a gran velocidad repeliendo a los enemigos</descrpcion>
+            </habilidad>
+        </habilidades>
+    </pokemon>
+</pokedex>

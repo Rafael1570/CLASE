@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ejercicio 16: Hoja de Inscripción</title>
+</head>
+<body>
+    <h2>HOJA DE INSCRIPCIÓN EN LOS CICLOS FORMATIVOS DE GRADO SUPERIOR</h2>
+    <form action="" method="get">
+        <fieldset>
+            <legend>DATOS PERSONALES</legend>
+            <!-- Aquí irían los campos de texto para nombre, DNI, etc. -->
+        </fieldset>
+        <fieldset>
+            <legend>FORMA DE ACCESO</legend>
+            <input type="radio" name="acceso" id="directo"> <label for="directo">DIRECTO</label><br>
+            <input type="radio" name="acceso" id="prueba"> <label for="prueba">PRUEBA LIBRE</label>
+        </fieldset>
+        <fieldset>
+            <legend>DOCUMENTOS ADJUNTOS</legend>
+            <input type="checkbox" id="dni"> <label for="dni">Fotocopia DNI</label><br>
+            <input type="checkbox" id="certificado"> <label for="certificado">Certificado académico</label><br>
+            <label for="otros">Otros documentos:</label> <input type="file" id="otros">
+        </fieldset>
+        <input type="submit" value="ENVIAR SOLICITUD">
+    </form>
+</body>
+</html>

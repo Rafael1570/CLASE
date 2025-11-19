@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ejercicio 17: Reserva de Salas</title>
+</head>
+<body>
+    <h2>FORMULARIO DE RESERVA DE SALAS</h2>
+    <form action="" method="get">
+        <p>
+            <label>Tu nombre: *</label>
+            <input type="text" required>
+        </p>
+        <p>
+            <label>Correo electrónico: *</label>
+            <input type="email" required>
+        </p>
+        <p>
+            <label>Departamento: *</label>
+            <select required>
+                <option>Ventas</option>
+                <option>Marketing</option>
+                <option>Recursos Humanos</option>
+            </select>
+        </p>
+        <p>Tipo de sala que desea reservar:</p>
+        <input type="radio" name="sala" id="a"> <label for="a">Opción A</label><br>
+        <input type="radio" name="sala" id="b"> <label for="b">Opción B</label><br>
+        <input type="radio" name="sala" id="c"> <label for="c">Opción C</label><br>
+
+        <p>Requisitos extra:</p>
+        <input type="checkbox" id="caballete"> <label for="caballete">Caballete y bolígrafos</label><br>
+        <input type="checkbox" id="tv"> <label for="tv">Televisión</label><br>
+        <input type="checkbox" id="cafe"> <label for="cafe">Café, té y agua</label><br>
+        
+        <p>
+            <label>Fecha de la reserva: *</label>
+            <input type="date" required>
+        </p>
+        <p>
+            <label>Hora de la reserva: *</label>
+            <input type="time" required>
+        </p>
+    </form>
+</body>
+</html>

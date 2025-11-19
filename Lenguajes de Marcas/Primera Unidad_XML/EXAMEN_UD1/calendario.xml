@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Ejercicio 2-->
+<!--He decidido incluir los dos tipos ya que si lo meto como atributo el tipo, fecha puede quedar como una etiqueta la cual sera util aportando información, mientra que el tipo viene mejor como atributo-->
+<cursos>
+    <curso nombre="1c">
+        <actividades>
+            <actividad id="1969" tipo="deportivo" nombre="futbol">
+                <fecha>
+                    <dia>5</dia>
+                    <mes>abril</mes>
+                    <anio>2025</anio>
+                </fecha>
+                <hora>11:15</hora>
+                <lugar>Patio Alixar</lugar>
+                <descripcion>Este partido se realizo en el patio del alixar, los jugadores de 1ºC realizaron un partido amistoso contra el 1ºB</descripcion>
+            </actividad>
+            <actividad id="1996" tipo="deportivo" nombre="baloncesto">
+                <fecha>
+                    <dia>8</dia>
+                    <mes>mayo</mes>
+                    <anio>2025</anio>
+                </fecha>
+                <hora>11:15</hora>
+                <lugar>Patio Alixar</lugar>
+                <descripcion>Este partido se realizo en el patio del alixar, los jugadores de 1ºC realizaron un entrenamiento para el comienzo de la temporada</descripcion>
+            </actividad>
+        </actividades>
+        <actos>
+            <acto id="2222" tipo="cultural" nombre="lectura">
+                <fecha>
+                    <dia>8</dia>
+                    <mes>enero</mes>
+                    <anio>2025</anio>
+                </fecha>
+                <hora>11:15</hora>
+                <lugar>Biblioteca</lugar>
+                <descripcion>Algunos alumnos de 1ºC fueron a la biblioteca a realizar una lectura de un libro</descripcion>
+            </acto>
+             <acto id="2222" tipo="cultural" nombre="lectura">
+                <fecha>
+                    <dia>8</dia>
+                    <mes>enero</mes>
+                    <anio>2025</anio>
+                </fecha>
+                <hora>11:15</hora>
+                <lugar>Biblioteca</lugar>
+                <descripcion>Algunos alumnos de 1ºC fueron a la biblioteca a realizar una lectura de un libro</descripcion>
+            </acto>
+            <acto id="4242" tipo="académico" nombre="limpieza">
+                <fecha>
+                    <dia>7</dia>
+                    <mes>enero</mes>
+                    <anio>2025</anio>
+                </fecha>
+                <hora>14:45</hora>
+                <lugar>Biblioteca</lugar>
+                <descripcion>Algunos alumnos de 1ºC fueron a la biblioteca a realizar una limpieza de la biblioteca y a ordenar los libros</descripcion>
+            </acto>
+        </actos>
+    </curso>
+</cursos>

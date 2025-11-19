@@ -1,0 +1,26 @@
+<?Xxml version=="1.0" encoding="UTF-8"?>
+<biblioteca>
+    <libro>
+        <titulo>Pepa Pig</titulo>
+        <autor>Roberto</autor>
+        <genero>Infantil</genero>
+        <anodepublicacion>Año 2000</anodepublicacion>
+        <disponibilidad>Disponible</disponibilidad>
+    </libro>
+
+    <libro>
+        <titulo>Geronimo</titulo>
+        <autor>Pepe</autor>
+        <genero>Infantil</genero>
+        <anodepublicacion>Año 2000</anodepublicacion>
+        <disponibilidad>Disponible</disponibilidad>
+    </libro>
+
+    <libro>
+        <titulo>Futbolisimos</titulo>
+        <autor>Rafa</autor>
+        <genero>Adolescente</genero>
+        <anodepublicacion>2007</anodepublicacion>
+        <disponibilidad>Disponible</disponibilidad>
+    </libro>
+</biblioteca>

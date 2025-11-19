@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<receta>
+    <sopa_cebolla>
+        <nombre>Sopa de Cebolla</nombre>
+        <comensales>4 Personas</comensales>
+        <ingredientes>
+            <p1>1 Kg de cebollas</p1>
+            <p2>2 l de caldo</p2>
+            <p3>100 gr mantequilla</p3>
+            <p4>Pan tostado en rebanadas</p4>
+            <p5>Tomillo</p5>
+            <p6>1 hoja de laurel</p6>
+            <p7>Pimienta</p7>
+        </ingredientes>
+    </sopa_cebolla>
+    <Proceso>
+        <pasos>
+            <p1>Pelar y partir las cebollas en rodajas finas.</p1>
+            <p2>Rehogarlas con la mantequilla, sal y pimienta a fuego lento hasta que estén
+         transparentes sin dorarse.</p2>
+            <p3>Añadir la harina sin dejar de remover.</p3>
+            <p4>Ponerlo en una cazuela con el caldo, el tomillo y el laurel.</p4>
+            <p5>Dejar cocer a fuego lento durante unos 15 minutos.</p5>
+            <p6>Poner las rebanadas de pan encima, espolvorear el queso y gratinar al
+            horno.</p6> 
+        </pasos>
+    </Proceso>
+</receta>

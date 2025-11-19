@@ -1,0 +1,21 @@
+<?Xxml version=="1.0" encoding="UTF-8"?>
+<agenda>
+    <contacto>
+        <nombre>Rafa</nombre>
+        <apellido>Vega Librero</apellido>
+        <direccion>C/pepito</direccion>
+        <telefonos>
+            <numero tipo="fijo">45511313</numero>
+            <numero tipo="trabajo">64646</numero>
+            <numero tipo="movil">46466</numero>
+        </telefonos>
+        <Vivienda>
+            <TipoDeCalle>Avenida</TipoDeCalle>
+            <Calle>Principal</Calle>
+            <numero>41</numero>
+            <piso>10</piso>
+            <puerta>10B</puerta>
+            <direccion>Pablo Coso Calero</direccion>
+        </Vivienda>
+    </contacto>
+</agenda>

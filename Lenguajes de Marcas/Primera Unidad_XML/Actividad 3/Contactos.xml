@@ -1,0 +1,21 @@
+<?Xxml version=="1.0" encoding="UTF-8"?>
+<agenda>
+    <contacto> 
+        <nombre>Alejandro<nombre>
+        <telefonos>
+            <numero tipo="movil">465746518</numero>
+        </telefonos>
+    </contacto>
+    <contacto> 
+        <nombre>Manuel<nombre>
+        <telefonos>
+            <numero tipo="casa">442631646</numero>
+        </telefonos>
+    </contacto>
+     <contacto> 
+        <nombre>Rafa<nombre>
+        <telefonos>
+            <numero tipo="trabajo">49494518</numero>
+        </telefonos>
+    </contacto>
+</agenda>

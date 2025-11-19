@@ -1,0 +1,21 @@
+<?Xxml version=="1.0" encoding="UTF-8"?>
+<bandeja>
+    <correo>
+        <remitente>
+            <nombre>Jose Maria</nombre>
+            <mail>jmgove@gmail.com</mail>
+        </remitente>
+        <destinatario>
+            <nombre>Rafael</nombre>
+            <mail>rafaelvegalirero@gmail.com</mail>
+        </destinatario>
+        <texto>
+            <asunto>Es del insti</asunto>
+            <cuerpo>
+                <parrafo>No se que tengo que hacer en la actividad 1</parrafo>
+                <parrafo>Espero que me ayudes pronto.</parrafo>
+                <parrafo>Un saludo.</parrafo>
+            </cuerpo>
+        </texto>
+    </correo>
+</bandeja>

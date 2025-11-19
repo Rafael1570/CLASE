@@ -1,0 +1,33 @@
+<form>
+    <fieldset>
+        <legend>Seleccionar</legend>
+        <p>¿Cuál es tu color favorito?<br>
+            <input type="radio" name="color"> Azul<br>
+            <input type="radio" name="color"> Verde<br>
+            <input type="radio" name="color"> Rojo
+        </p>
+        <p>
+            <label>¿Cuál es tu comida preferida?</label>
+            <select>
+                <option>Lasaña</option>
+                <option>Pizza</option>
+            </select>
+        </p>
+    </fieldset>
+    <fieldset>
+        <legend>Deportes</legend>
+        <p>¿Te gusta el fútbol?<br>
+            <input type="radio" name="futbol"> Sí<br>
+            <input type="radio" name="futbol"> No
+        </p>
+        <p>
+            <label>¿De qué equipo eres?</label><br>
+            <select size="4">
+                <option>Real Betis Balompié</option>
+                <option>Sevilla FC</option>
+                <option>Real Madrid</option>
+                <option>Atlético de Madrid</option>
+            </select>
+        </p>
+    </fieldset>
+</form>

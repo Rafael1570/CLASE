@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<catalogo>
+    <peliculas>
+        <pelicula idioma="Español" clasificacion="R" nombre="Campeones">
+            <director>Javier Fesser</director>
+            <reparto>
+                <actor>Javier Gutiérrez</actor>
+                <actor>Juan Margallo</actor>
+                <actor>Athenea Mata</actor>
+            </reparto>
+            <duracion>124 minutos</duracion>
+            <valoracion>8.0</valoracion>
+            <genero>Comedia / Superación</genero>
+        </pelicula>
+
+        <pelicula idioma="Español" clasificacion="PG-13" nombre="Ocho apellidos vascos">
+            <director>Emilio Martínez-Lázaro</director>
+            <reparto>
+                <actor>Dani Rovira</actor>
+                <actor>Clara Lago</actor>
+                <actor>Karra Elejalde</actor>
+                <actor>Carmen Machi</actor>
+            </reparto>
+            <duracion>98 minutos</duracion>
+            <valoracion>7.2</valoracion>
+            <genero>Comedia romántica</genero>
+        </pelicula>
+
+        <pelicula idioma="Español" clasificacion="R" nombre="La isla mínima">
+            <director>Alberto Rodríguez</director>
+            <reparto>
+                <actor>Raúl Arévalo</actor>
+                <actor>Javier Gutiérrez</actor>
+                <actor>Nerea Barros</actor>
+            </reparto>
+            <duracion>105 minutos</duracion>
+            <valoracion>8.3</valoracion>
+            <genero>Thriller / Policiaco</genero>
+        </pelicula>
+    </peliculas>
+
+    <series>
+        <serie idioma="Español" clasificacion="TV-MA" nombre="La Casa de Papel">
+            <director>Álex Pina</director>
+            <reparto>
+                <actor>Álvaro Morte</actor>
+                <actor>Úrsula Corberó</actor>
+                <actor>Pedro Alonso</actor>
+                <actor>Itziar Ituño</actor>
+            </reparto>
+            <duracion>50 minutos por episodio</duracion>
+            <temporadas>5</temporadas>
+            <valoracion>8.2</valoracion>
+            <genero>Acción / Crimen</genero>
+        </serie>
+
+        <serie idioma="Español" clasificacion="TV-MA" nombre="Élite">
+            <director>Carlos Montero</director>
+            <reparto>
+                <actor>Itzan Escamilla</actor>
+                <actor>Miguel Bernardeau</actor>
+                <actor>Danna Paola</actor>
+                <actor>Arón Piper</actor>
+            </reparto>
+            <duracion>45 minutos por episodio</duracion>
+            <temporadas>8</temporadas>
+            <valoracion>7.0</valoracion>
+            <genero>Drama / Juvenil</genero>
+        </serie>
+
+        <serie idioma="Español" clasificacion="TV-14" nombre="Cuéntame cómo pasó">
+            <director>Miguel Ángel Bernardeau</director>
+            <reparto>
+                <actor>Imanol Arias</actor>
+                <actor>Ana Duato</actor>
+                <actor>Pablo Rivero</actor>
+                <actor>Ricardo Gómez</actor>
+            </reparto>
+            <duracion>60 minutos por episodio</duracion>
+            <temporadas>23</temporadas>
+            <valoracion>8.4</valoracion>
+            <genero>Drama / Histórico</genero>
+        </serie>
+    </series>
+
+    <albunsmusical>
+        <album nombre="El Madrileño" duracion="59 minutos">
+            <artista>C. Tangana</artista>
+            <discografia>Sony Music España</discografia>
+            <canciones>Tú me dejaste de querer, Demasiadas mujeres, Ingobernable</canciones>
+            <valoracion>9.1</valoracion>
+        </album>
+
+        <album nombre="Motomami" duracion="44 minutos">
+            <artista>Rosalía</artista>
+            <discografia>Columbia Records</discografia>
+            <canciones>Saoko, Despechá, Bizcochito</canciones>
+            <valoracion>9.5</valoracion>
+        </album>
+
+        <album nombre="Origen" duracion="52 minutos">
+            <artista>Pablo Alborán</artista>
+            <discografia>Warner Music Spain</discografia>
+            <canciones>Saturno, Prometo, Solamente tú</canciones>
+            <valoracion>8.7</valoracion>
+        </album>
+    </albunsmusical>
+
+    <podcasts>
+        <podcast nombre="Nadie Sabe Nada" duracion="50 minutos">
+            <creador>Andreu Buenafuente y Berto Romero</creador>
+            <tematica>Humor e improvisación</tematica>
+            <episodios>400</episodios>
+            <valoracion>9.5</valoracion>
+        </podcast>
+
+        <podcast nombre="La Vida Moderna" duracion="55 minutos">
+            <creador>David Broncano, Quequé y Ignatius Farray</creador>
+            <tematica>Comedia y actualidad</tematica>
+            <episodios>800</episodios>
+            <valoracion>9.3</valoracion>
+        </podcast>
+
+        <podcast nombre="Deforme Semanal Ideal Total" duracion="60 minutos">
+            <creador>Lucía Lijtmaer y Isabel Calderón</creador>
+            <tematica>Cultura, feminismo y humor</tematica>
+            <episodios>250</episodios>
+            <valoracion>9.0</valoracion>
+        </podcast>
+    </podcasts>
+</catalogo>

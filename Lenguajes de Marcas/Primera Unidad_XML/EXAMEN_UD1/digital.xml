@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Ejercicio 1-->
+<obras>
+    <obra codigo="01">
+        <titulo>Los 3 cerditos</titulo>
+        <autor>Michael B</autor>
+        <aniopublicacion>
+            <dia>5</dia>
+            <mes>agosto</mes>
+            <anio>2005</anio>
+        </aniopublicacion>
+        <generos>
+            <genero>drama</genero>
+            <genero>ficcion</genero>
+            <genero>infantil</genero>
+        </generos>
+        <paginas>165</paginas>
+        <precio valor="€" unidad="decimal"></precio>
+    </obra>
+        <obra codigo="02">
+        <titulo>Caperucita Roja</titulo>
+        <autor>Antonio Lobato</autor>
+        <aniopublicacion>
+            <dia>18</dia>
+            <mes>mayo</mes>
+            <anio>2016</anio>
+        </aniopublicacion>
+        <generos>
+            <genero>suspense</genero>
+            <genero>ficcion</genero>
+            <genero>infantil</genero>
+            <genero>terror</genero>
+        </generos>
+        <paginas>165</paginas>
+        <precio valor="€" unidad="decimal"></precio>
+    </obra>
+</obras>
