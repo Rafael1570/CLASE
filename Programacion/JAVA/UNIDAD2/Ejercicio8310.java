@@ -7,7 +7,7 @@ public class Ejercicio8310 {
         int[] alreves = new int[tamaño];
 
         for (int i = 0; i < tamaño; i++) {
-            alreves[i] = array1[tamaño - 1 - i];  // correcto
+            alreves[i] = array1[tamaño - 1 - i];  
         }
 
         return alreves;
