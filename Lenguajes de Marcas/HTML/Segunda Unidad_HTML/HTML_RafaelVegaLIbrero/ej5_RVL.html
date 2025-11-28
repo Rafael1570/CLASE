@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title>Registro GameFriends</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h1>Registro en GameFriends</h1>
+        <p>GameFriends es una red social para jugadores donde puedes compratri tus partidas, conocer a otros gamers y descrubir nuevos videojuegos. Rellena el siguiente formulario para crear tu cuenta</p>
+        <form>
+            <fieldset>
+                <legend>Datos de Acceso</legend><br>
+                <label for="nombre">Nombre de usuario:</label>
+                <input type="text" id="nombre" name="nombre" required><br><br>
+                <label for="contraseña">Contraseña:</label>
+                <input type="password" id="contraseña" name="contraseña" required><br><br>
+                <laber for="repetir">Repetir contraseña:</label>
+                <input type="password" id="repetir" name="repetir" required><br><br>
+            </fieldset>
+            <fieldset>
+                <legend>Datos personales y preferencias</legend>
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" namme="email"><br><br>
+                <label for="imagen">Adjunta tu imagen de perfil:</label>
+                <input type="file" id="imagen" name="imagen" accept="image/*"><br><br>
+                <label for="plataforma">¿Que plataforma utilizas normalmente?</label>
+                <select id="plataforma" name="plataforma">
+                    <option value="pc">PC</option>
+                    <option value="PlayStation">PlayStation</option>
+                    <option value="Xbox">Xbox</option>
+                    <option value="Nintendo">Nintendo</option>
+                    <option value="mobil">Móvil</option>
+                </select>
+                <br><br>
+                <label for="genero">Géneros de videojugos que te gustan:</label>
+                <input type="checkbox" id="accion" name="genero" value="acción">
+                <label for="action">Acciónn</label>
+                <input type="checkbox" id="deporte" name="genero" value="deporte">
+                <label for="deporte">Deporte</label>
+                <input type="checkbox" id="Estrategia" name="genero" value="Estrategia">
+                <label for="Estrategia">Estrategia</label>
+                <input type="checkbox" id="Aventura" name="genero" value="Aventura">
+                <label for="Aventura">Aventura</label><br><br>
+                <input type="checkbox" id="Otros" name="genero" value="Otros">
+                <label for="Otros">Otros</label><br><br>
+
+                <label for="favorito">Tu juego favorito:</label>
+                <input type="text" id="favorito" name="favorito"><br><br>
+                <label for="descripcion">Descripción/Biografia:</label><br>
+                <textarea id="descripcion" name="descripcion" rows="4" cols="50" placeholder="Cuéntanos sobre ti..."></textarea><br><br>
+            </fieldset>
+            <input type="checkbox" id="terminos" name="terminos" required>
+            <label for="terminos">Acepto los términos y condiciones</label><br><br>
+            <input type="submit" value="Enviar">
+            <input type="submit" value="Borrar">
+        </form>
+    </body>
+</html>
