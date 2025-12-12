@@ -1,0 +1,4 @@
+.contenedor p:last-child {
+    font-size: 20px;
+    color: blue;
+}

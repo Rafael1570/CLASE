@@ -1,0 +1,4 @@
+.contenedor p::first-line {
+    font-size: 30px;
+    font-weight: bold;
+}

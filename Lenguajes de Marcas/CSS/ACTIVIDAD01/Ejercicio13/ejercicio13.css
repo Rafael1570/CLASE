@@ -1,0 +1,9 @@
+.normal{
+    font-size: normal;
+}
+.espaciado-4{
+    letter-spacing: 4px;
+}
+.espaciado-negativo{
+    letter-spacing: -2px;
+}

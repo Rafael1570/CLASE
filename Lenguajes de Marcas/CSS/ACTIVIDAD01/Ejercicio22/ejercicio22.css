@@ -1,0 +1,4 @@
+.antes::before {
+    content: "Un trozo de texto: ";
+    font-size: 20px;
+}

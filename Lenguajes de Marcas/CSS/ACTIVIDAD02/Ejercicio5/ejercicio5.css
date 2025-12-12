@@ -1,0 +1,55 @@
+body {
+    font-family: sans-serif;
+}
+
+table {
+    /* Unión de los bordes */
+    border-collapse: collapse;
+    /* Anchura: 50% */
+    width: 50%;
+    /* margin-left: 25% */
+    margin-left: 25%;
+    /* Un borde: 3px, sólido */
+    border: 3px solid #616161; /* Gris oscuro */
+}
+
+/* La cabecera tendrá */
+thead th {
+    /* Texto alineado a la izquierda */
+    text-align: left;
+    /* Padding: 8px */
+    padding: 8px;
+    /* Fuente de la familia: verdana */
+    font-family: Verdana, sans-serif;
+    /* Tamaño de la fuente: 1.5 rem */
+    font-size: 1.5rem;
+    /* Color de la letra: blanco */
+    color: white;
+    background-color: #616161; /* Gris oscuro */
+}
+
+/* Las celdas del cuerpo de la tabla */
+tbody td {
+    /* Texto alineado a la izquierda */
+    text-align: left;
+    /* Padding: 8px */
+    padding: 8px;
+    /* Tamaño de la fuente: 1.5 rem (la instrucción es la misma, se ajusta para legibilidad)*/
+    font-size: 1rem; 
+}
+
+/* Las celdas que corresponden a la columna precio tendrán texto alineado a la derecha */
+tbody td:last-child {
+    text-align: right;
+    font-family: monospace;
+}
+
+/* Cada fila tendrá un borde: sólido de 1px */
+tbody tr {
+    border-bottom: 1px solid #bdbdbd; /* Gris claro */
+}
+
+/* Todas las filas pares, tendrán distinto color */
+tbody tr:nth-child(even) {
+    background-color: #f5f5f5; /* Gris muy claro */
+}

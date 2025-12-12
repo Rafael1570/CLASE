@@ -1,6 +1,7 @@
 {
     "java.project.sourcePaths": [
+        "JAVA/UNIDAD2",
         "JAVA/EXAMEN/UNIDAD1/EJERCICIOS_RAFAELVEGALIBRERO",
-        "JAVA/UNIDAD2"
+        "JAVA/examenRVL/ejercicio1/principal"
     ]
 }

@@ -1,0 +1,12 @@
+.lower-latin {
+    list-style-type: lower-latin;
+}
+.upper-roman {
+    list-style-type: upper-roman;
+}
+.upper-alpha {
+    list-style-type: upper-alpha;
+}
+.lower-roman {
+    list-style-type: lower-roman;
+}

@@ -1,0 +1,63 @@
+/* Estilos para centrar la tabla en la página */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #e9e9e9; /* Fondo gris claro para contraste */
+}
+
+/* Estilos generales de la tabla */
+table {
+    border-collapse: collapse; /* Une los bordes de las celdas */
+    border: 3px double #888; /* Borde exterior doble y gris */
+    width: 80%;
+    max-width: 700px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra suave */
+}
+
+/* Estilos para todas las celdas (cabecera y cuerpo) */
+th, td {
+    border: 1px solid #aaa; /* Borde delgado y gris para todas las celdas */
+    padding: 12px;
+    text-align: center;
+}
+
+/* Estilos específicos para la cabecera (thead) */
+thead th {
+    background-color: #ffffff; /* Fondo blanco */
+    color: #4A568C; /* Color de texto azul/morado */
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+/* Estilos para las celdas del cuerpo (tbody) */
+tbody td {
+    font-family: Arial, sans-serif;
+    color: #333; /* Color de texto oscuro por defecto */
+}
+
+/* Colores de fondo para cada fila del cuerpo */
+
+/* Fila 1 (Antonio) */
+tbody tr:nth-child(1) {
+    background-color: #B2DFDB; /* Verde azulado claro */
+}
+
+/* Fila 2 (José) */
+tbody tr:nth-child(2) {
+    background-color: #DCE775; /* Verde lima claro */
+}
+
+/* Fila 3 (María) */
+tbody tr:nth-child(3) {
+    background-color: #C5CAE9; /* Lavanda claro */
+}
+
+/* Fila 4 (Miguel) */
+tbody tr:nth-child(4) {
+    background-color: #3F51B5; /* Azul índigo oscuro */
+    color: #ffffff; /* Texto blanco para que contraste */
+}

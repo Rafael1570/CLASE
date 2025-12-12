@@ -1,0 +1,30 @@
+/* Estilo general del cuerpo de la página */
+body {
+    background-color: #fcf8e8; /* Un color beige claro similar a la imagen */
+    font-family: sans-serif;
+}
+
+/* Estilo para el título principal */
+h1 {
+    color: #365f91; /* Azul */
+}
+
+/* Estilo para los subtítulos */
+h2 {
+    color: #365f91; /* Azul */
+}
+
+/* El texto dentro de la etiqueta span será morado */
+span {
+    color: #800080; /* Morado */
+}
+
+/* Quitamos el padding por defecto de la lista no ordenada */
+ul {
+    padding-left: 20px;
+}
+
+/* Estilo para los elementos de la lista ordenada */
+ol {
+    font-family: monospace;
+}

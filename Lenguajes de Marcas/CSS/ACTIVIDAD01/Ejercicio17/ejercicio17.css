@@ -1,0 +1,4 @@
+.contenedor p:first-child {
+    font-size: 20px;
+    color: red;
+}

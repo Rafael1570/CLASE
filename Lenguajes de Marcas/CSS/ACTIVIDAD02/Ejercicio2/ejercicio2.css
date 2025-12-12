@@ -1,0 +1,45 @@
+/* a. Todos los párrafos de la página tendrán color negro. */
+p {
+    color: black;
+}
+
+/* d. Un div con id="primero” con el fondo de color beige */
+#primero {
+    background-color: beige;
+}
+
+/* d.i. Todos los párrafos de primero tendrán color azul. */
+#primero p {
+    color: blue;
+}
+
+/* d.ii. Un título de nivel 1, con el fondo azul clarito. */
+#primero h1 {
+    background-color: lightblue;
+}
+
+/* d.iii. Un título de nivel 2, con el fondo verde clarito. */
+#primero h2 {
+    background-color: lightgreen;
+}
+
+/* b. Todas las palabras en negrita que haya dentro de primero tendrán un fondo rosa clarito. */
+#primero b {
+    background-color: lightpink;
+}
+
+/* c. Todas las palabras en cursiva dentro de primero tendrán un fondo verde intermedio. */
+#primero i {
+    background-color: mediumseagreen;
+}
+
+
+/* e.ii. Toda la clase normal estará dentro de un borde sólido azul oscuro y de grosor 3px */
+.normal {
+    border: 3px solid darkblue;
+}
+
+/* e.i. Todas las palabras en cursiva dentro de segundo tendrán el fondo gris clarito. */
+#segundo i {
+    background-color: lightgray;
+}

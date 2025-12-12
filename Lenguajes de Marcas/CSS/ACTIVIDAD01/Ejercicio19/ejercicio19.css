@@ -1,0 +1,6 @@
+.primera-linea::first-line {
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    color: green;
+}

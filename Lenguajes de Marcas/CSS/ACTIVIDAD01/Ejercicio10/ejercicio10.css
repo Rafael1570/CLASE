@@ -1,0 +1,15 @@
+.sin-decoracion {
+    text-decoration: none;
+}
+.heredada {
+    text-decoration: inherit;
+}
+.encima {
+    text-decoration: overline;
+}
+.medio {
+    text-decoration: line-through;
+}
+.debajo {
+    text-decoration: underline;
+}

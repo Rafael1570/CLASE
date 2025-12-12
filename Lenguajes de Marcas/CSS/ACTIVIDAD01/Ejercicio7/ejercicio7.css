@@ -1,0 +1,16 @@
+body p {
+    font-weight: bold;
+}
+.rojo {
+    color: red;
+}
+.azul {
+    color: blue;
+}
+.verde {
+    color: green;
+}
+.amarillo {
+    color: yellow;
+    background-color: grey;
+}

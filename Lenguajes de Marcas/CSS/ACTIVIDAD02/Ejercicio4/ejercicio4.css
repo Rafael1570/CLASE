@@ -1,0 +1,64 @@
+/* Estilo para centrar la tabla en la página */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+/* Estilos de la tabla: bordes colapsados y un borde exterior */
+table {
+    border-collapse: collapse;
+    border: 1px solid #777;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* Estilos generales para todas las celdas (th y td) */
+th, td {
+    padding: 15px 25px;
+    text-align: center;
+    border: 1px solid #555; /* Borde por defecto para las celdas */
+}
+
+/* --- CABECERA (Fila Roja) --- */
+thead th {
+    font-family: 'Arial Black', Gadget, sans-serif;
+    font-size: 2em;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+
+/* Colores de fondo para cada celda de la cabecera */
+thead th:nth-child(1) { background-color: #f06262; } /* Rojo claro */
+thead th:nth-child(2) { background-color: #c62828; } /* Rojo medio */
+thead th:nth-child(3) { background-color: #800000; } /* Rojo oscuro (Maroon) */
+
+/* --- CUERPO (Filas Azules y Amarillas) --- */
+
+/* Filas Azules (1 y 2) */
+tbody tr:nth-child(-n+2) td {
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 1.1em;
+    border-color: white; /* Borde blanco entre celdas azules */
+}
+
+/* Colores para las celdas de las filas azules, por columna */
+tbody tr:nth-child(-n+2) td:nth-child(1) { background-color: #007bff; } /* Azul brillante */
+tbody tr:nth-child(-n+2) td:nth-child(2) { background-color: #0056b3; } /* Azul más oscuro */
+tbody tr:nth-child(-n+2) td:nth-child(3) { background-color: #002e5f; } /* Azul muy oscuro */
+
+/* Fila Amarilla (3) */
+tbody tr:nth-child(3) td {
+    color: black;
+    font-size: 1.4em;
+    font-weight: bold;
+    border-color: #8a8a8a; /* Borde gris para la fila amarilla */
+}
+
+/* Colores para cada celda de la fila amarilla */
+tbody tr:nth-child(3) td:nth-child(1) { background-color: #fffacd; } /* Amarillo pálido (LemonChiffon) */
+tbody tr:nth-child(3) td:nth-child(2) { background-color: #ffd700; } /* Amarillo dorado (Gold) */
+tbody tr:tr:nth-child(3) td:nth-child(3) { background-color: #ffff00; } /* Amarillo puro */
