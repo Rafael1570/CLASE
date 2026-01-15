@@ -1,0 +1,47 @@
+/* Configuración general de la tabla */
+.tabla-ejercicio {
+    width: 100%;
+    /* Muy importante: 'separate' permite el espacio entre celdas de la imagen */
+    border-collapse: separate; 
+    border-spacing: 3px; 
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo para todas las celdas */
+.tabla-ejercicio th, 
+.tabla-ejercicio td {
+    border: 1px solid #888; /* Borde fino gris */
+    padding: 12px;
+    text-align: center;
+}
+
+/* Estilo de la cabecera (Letra azul y negrita) */
+.tabla-ejercicio th {
+    color: #3f51b5; 
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+}
+
+/* Colores de fondo por fila */
+
+.fila-antonio {
+    background-color: #9dc8c8; /* Verde azulado claro */
+}
+
+.fila-jose {
+    background-color: #c2e59d; /* Verde amarillento */
+}
+
+.fila-maria {
+    background-color: #9ea7d3; /* Lavanda / Azul claro */
+}
+
+.fila-miguel {
+    background-color: #3f51b5; /* Azul oscuro */
+}
+
+/* Ajuste para que el texto de la última fila sea legible */
+.fila-miguel td {
+    color: black; /* O 'white' si prefieres que resalte más */
+}

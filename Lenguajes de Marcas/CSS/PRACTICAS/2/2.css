@@ -1,0 +1,48 @@
+/* Contenedor superior con fondo crema */
+#primero {
+    background-color: rgb(255, 249, 163);
+    padding: 10px;
+}
+
+/* Título 1 con fondo azul violáceo */
+h1 {
+    background-color: #939add; /* Un color más parecido al de la imagen */
+}
+
+/* Título 2 con fondo verde claro */
+h2 {
+    background-color: #b7e9c1;
+}
+
+/* Color azul para los párrafos del primer bloque */
+#primero p {
+    color: blue;
+}
+
+/* Negrita con fondo rosa */
+b {
+    background-color: pink;
+}
+
+/* Resaltado naranja para HTML y CSS (corregido de .1er a .primero) */
+.primero {
+    background-color: #aec400; /* Color verde lima/oliva de la imagen */
+    font-style: italic;
+}
+
+/* Segundo bloque con borde azul y texto NEGRO */
+.normal {
+    border: 3px solid blue;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.normal p {
+    color: black; /* En la imagen este texto no es azul */
+}
+
+/* Resaltado gris (corregido de .2er a .segundo) */
+.segundo {
+    background-color: grey;
+    font-style: italic;
+}

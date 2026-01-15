@@ -1,0 +1,48 @@
+.tabla-colores {
+    width: 100%;
+    border-collapse: collapse; /* Para que las líneas blancas sean finas */
+    text-align: center;
+}
+
+/* Estilos comunes para todas las celdas */
+.tabla-colores th, 
+.tabla-colores td {
+    border: 1px solid white; /* El borde blanco que separa los colores */
+    padding: 15px;
+}
+
+/* --- FILA SUPERIOR (thead) --- */
+.tabla-colores thead th {
+    color: white;
+    font-family: "Courier New", monospace; /* Fuente tipo código */
+    font-size: 40px;
+    font-weight: bold;
+}
+/* Colores de fondo thead */
+.tabla-colores thead th:nth-child(1) { background-color: #ff4d60; } /* Rojo claro */
+.tabla-colores thead th:nth-child(2) { background-color: #d64040; } /* Rojo medio */
+.tabla-colores thead th:nth-child(3) { background-color: #800000; } /* Rojo oscuro */
+
+/* --- FILAS CENTRALES (tbody) --- */
+.tabla-colores tbody td {
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    padding: 10px;
+}
+/* Colores de fondo por columnas en el cuerpo */
+.tabla-colores tbody td:nth-child(1) { background-color: #2948ff; } /* Azul */
+.tabla-colores tbody td:nth-child(2) { background-color: #1522cc; } /* Azul medio */
+.tabla-colores tbody td:nth-child(3) { background-color: #000099; } /* Azul oscuro */
+
+/* --- FILA INFERIOR (tfoot) --- */
+.tabla-colores tfoot td {
+    color: black;
+    font-family: "Georgia", serif; /* Fuente con remates */
+    font-size: 25px;
+    font-weight: bold;
+}
+/* Colores de fondo tfoot */
+.tabla-colores tfoot td:nth-child(1) { background-color: #fff9b0; } /* Amarillo pálido */
+.tabla-colores tfoot td:nth-child(2) { background-color: #ffef62; } /* Amarillo medio */
+.tabla-colores tfoot td:nth-child(3) { background-color: #ffff00; } /* Amarillo fuerte */
