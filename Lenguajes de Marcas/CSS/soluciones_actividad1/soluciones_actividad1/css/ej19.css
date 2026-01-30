@@ -1,0 +1,12 @@
+body {
+    font-family: Georgia, serif;
+    margin: 40px;
+}
+
+/* Pseudoelemento primera línea */
+.descripcion::first-line {
+    color: green;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+}

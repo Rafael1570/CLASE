@@ -1,0 +1,27 @@
+body {
+    font-family: Georgia, serif;
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* Todos los párrafos en negrita */
+p {
+    font-weight: bold;
+}
+
+/* Colores de texto */
+.rojo {
+    color: red;
+}
+
+.azul {
+    color: blue;
+}
+
+.verde {
+    color: green;
+}
+
+.amarillo {
+    color: yellow;
+}

@@ -1,0 +1,24 @@
+body {
+    font-family: Georgia, serif;
+    margin: 40px;
+}
+
+/* Sin transformación */
+.normal {
+    text-transform: none;
+}
+
+/* Primera letra de cada palabra en mayúscula */
+.capitalize {
+    text-transform: capitalize;
+}
+
+/* Todo el texto en mayúsculas */
+.uppercase {
+    text-transform: uppercase;
+}
+
+/* Todo el texto en minúsculas */
+.lowercase {
+    text-transform: lowercase;
+}

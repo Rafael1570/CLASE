@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+}
+
+/* Tabla general */
+.tabla {
+    border-collapse: collapse; /* unión de bordes */
+    margin: 0 auto;
+}
+
+/* Bordes comunes a todas las celdas */
+.tabla th,
+.tabla td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+/* CABECERA */
+.tabla thead th {
+    font-size: 30px;
+    font-family: monospace;
+    font-weight: bold;
+    padding: 15px;
+    background-color: #ff4d4d;
+    color: white;
+}
+
+/* CUERPO */
+.tabla tbody td {
+    padding: 10px;
+    font-size: initial;        /* tamaño por defecto */
+    font-family: initial;      /* familia por defecto */
+    font-weight: initial;      /* anchura por defecto */
+    background-color: #1e22cc;
+    color: white;
+}
+
+/* PIE DE TABLA */
+.tabla tfoot td {
+    font-size: 18px;
+    font-family: Georgia, serif;
+    font-weight: bold;
+    padding: 2px;
+    background-color: yellow;
+    color: black;
+}

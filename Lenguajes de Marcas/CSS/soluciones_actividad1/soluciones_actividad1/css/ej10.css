@@ -1,0 +1,30 @@
+body {
+    font-family: Georgia, serif;
+    margin: 40px;
+    text-decoration: none;
+}
+
+/* Sin decoración */
+.sin-decoracion {
+    text-decoration: none;
+}
+
+/* Decoración heredada */
+.heredada {
+    text-decoration: inherit;
+}
+
+/* Línea encima */
+.encima {
+    text-decoration: overline;
+}
+
+/* Línea atravesada */
+.medio {
+    text-decoration: line-through;
+}
+
+/* Subrayado */
+.debajo {
+    text-decoration: underline;
+}

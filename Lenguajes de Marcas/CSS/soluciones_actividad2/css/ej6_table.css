@@ -1,0 +1,52 @@
+body {
+    margin: 30px;
+    font-family: Arial, sans-serif;
+}
+
+/* Tabla */
+.tablero {
+    border-collapse: collapse;
+    margin: 0 auto;
+    border: 2px solid #c96b00;
+}
+
+/* Cabeceras */
+.letra,
+.numero,
+.esquina {
+    background-color: #d06a00;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    width: 25px;
+    height: 20px;
+    border: solid 1px white;
+}
+
+/* Casillas */
+.tablero td {
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 44px;
+    border: 1px solid white;
+}
+
+.blanca {
+    background-color: white;
+}
+
+.negra {
+    background-color: #7e7e7e;
+}
+
+/* Piezas */
+.blanca-pieza {
+    color: white;
+    text-shadow: 0 0 2px black;
+}
+
+.negra-pieza {
+    color: black;
+}

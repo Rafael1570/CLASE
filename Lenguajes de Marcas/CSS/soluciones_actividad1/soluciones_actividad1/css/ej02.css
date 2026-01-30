@@ -1,0 +1,25 @@
+body {
+    font-family: Georgia, serif;
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* Tamaño pequeño */
+.small {
+    font-size: small;
+}
+
+/* Tamaño mediano (valor por defecto) */
+.medium {
+    font-size: medium;
+}
+
+/* Tamaño grande */
+.large {
+    font-size: large;
+}
+
+/* Tamaño muy grande */
+.xlarge {
+    font-size: x-large;
+}

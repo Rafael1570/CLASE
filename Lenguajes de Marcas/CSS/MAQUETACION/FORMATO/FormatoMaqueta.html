@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Maqueta Exacta - CSS Grid</title>
+    <style>
+        .header, footer {
+            background-color: lightgray;
+            text-align: center;
+            padding: 10px;
+        }
+        .derecho {
+            grid-area: derecho;
+            background-color: lightblue;
+            padding: 10px;
+        }
+        .izquierdo {
+            grid-area: izquierdo;
+            background-color: lightgreen;
+            padding: 10px;
+        }
+        .contenedor {
+            display: grid;
+            grid-template-areas:
+                "main izquierdo"
+                "section section";
+            gap: 10px;
+            padding: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>Cabeza</header>
+    <aside class="derecho">aside derecho</aside>
+        <div class="contenedor"></div>
+            <main>MAIN</main>
+            <aside>aside izquierdo </aside>
+            <section>
+                <article>
+                    <header>cabeza 1</header>
+                    <p>hola</p>
+                    <footer>pie 1</footer>
+                </article>
+                <article>
+                    <header>cabeza 2</header>
+                    <p>hola</p>
+                    <footer>pie 2</footer>
+                </article>
+                <article>
+                    <header>cabeza 3</header>
+                    <p>hola</p>
+                    <footer>pie 3</footer>
+                </article>
+            </section>
+            <section>
+                <article>
+                    <header>cabeza 4</header>
+                    <p>hola</p>
+                    <footer>pie 4</footer>
+                </article>
+                <article>
+                    <header>cabeza 5</header>
+                    <p>hola</p>
+                    <footer>pie 5</footer>
+                </article>
+            </section>
+        </div>
+    <aside class="izquierdo">aside izquierdo </aside>
+    <footer>&lt;footer&gt;</footer>
+</body>
+</html>

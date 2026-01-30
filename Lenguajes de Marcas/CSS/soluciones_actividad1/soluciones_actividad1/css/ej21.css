@@ -1,0 +1,12 @@
+body {
+    font-family: Georgia, serif;
+    margin: 40px;
+}
+
+/* Primera letra del párrafo */
+.texto::first-letter {
+    font-size: 60px;
+    font-weight: bold;
+    font-style: italic;
+    color: purple;
+}

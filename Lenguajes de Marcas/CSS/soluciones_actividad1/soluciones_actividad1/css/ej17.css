@@ -1,0 +1,16 @@
+body {
+    font-family: Georgia, serif;
+    margin: 40px;
+}
+
+/* Contenedor con borde */
+.contenedor {
+    border: 2px solid green;
+    padding: 10px;
+}
+
+/* Primer hijo del contenedor */
+.contenedor p:first-child {
+    color: red;
+    font-size: 20px;
+}

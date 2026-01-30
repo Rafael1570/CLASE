@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+}
+
+/* Tabla general */
+.tabla-viajes {
+    border-collapse: collapse;   /* unión de bordes */
+    width: 50%;
+    margin-left: 25%;
+    border: 3px solid #333;      /* borde 3px sólido */
+}
+
+/* Bordes en cada celda */
+.tabla-viajes th,
+.tabla-viajes td {
+    border: 1px solid #333;
+}
+
+/* Cabecera */
+.tabla-viajes thead th {
+    text-align: left;
+    padding: 5px;
+    font-family: Verdana, sans-serif;
+    font-size: 1.5em;
+    color: white;
+    background-color: #2e9b3b; /* verde cabecera */
+}
+
+/* Celdas origen y destino */
+.tabla-viajes tbody td {
+    text-align: left;
+    padding: 5px;
+    font-size: 1.5em;
+}
+
+/* Columna precio medio alineada a la derecha */
+.tabla-viajes td.precio {
+    text-align: right;
+}
+
+/* Filas con distinto color */
+.fila1,
+.fila3,
+.fila5 { background-color: #b7b7b7; }

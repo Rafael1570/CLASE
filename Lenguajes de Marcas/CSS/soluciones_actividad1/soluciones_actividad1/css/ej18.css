@@ -1,0 +1,16 @@
+body {
+    font-family: Georgia, serif;
+    margin: 40px;
+}
+
+/* Contenedor con borde */
+.contenedor {
+    border: 2px solid green;
+    padding: 10px;
+}
+
+/* Último hijo del contenedor */
+.contenedor p:last-child {
+    color: purple;
+    font-size: 20px;
+}

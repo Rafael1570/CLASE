@@ -1,0 +1,25 @@
+body {
+    font-family: Georgia, serif;
+    margin: 40px;
+}
+
+/* Alineación izquierda */
+.izquierda {
+    text-align: left;
+}
+
+/* Alineación derecha */
+.derecha {
+    text-align: right;
+}
+
+/* Alineación centrada y texto en negrita */
+.centro {
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Texto justificado */
+.justificado {
+    text-align: justify;
+}

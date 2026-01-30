@@ -1,0 +1,11 @@
+body {
+    font-family: Georgia, serif;
+    margin: 40px;
+}
+
+/* Texto añadido después del párrafo */
+.despues::after {
+    content: " Un trozo de texto.";
+    font-size: 20px;
+    color: steelblue;
+}

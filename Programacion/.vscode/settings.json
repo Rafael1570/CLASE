@@ -1,7 +1,8 @@
 {
     "java.project.sourcePaths": [
+        "JAVA/examenRVL/ejercicio1/principal",
         "JAVA/UNIDAD2",
         "JAVA/EXAMEN/UNIDAD1/EJERCICIOS_RAFAELVEGALIBRERO",
-        "JAVA/examenRVL/ejercicio1/principal"
+        "ORIENTACION_A_OBJETOS/rectangulo"
     ]
 }

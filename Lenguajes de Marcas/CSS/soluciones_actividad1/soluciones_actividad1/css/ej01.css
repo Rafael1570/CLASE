@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* Letra cursive */
+.cursive {
+    font-family: cursive;
+}
+
+/* Letra Georgia */
+.georgia {
+    font-family: Georgia, serif;
+}
+
+/* Letra fantasy */
+.fantasy {
+    font-family: fantasy;
+    font-weight: bold;
+}
+
+/* Letra Times New Roman */
+.times {
+    font-family: "Times New Roman", Times, serif;
+}
+
+/* Letra monospace */
+.monospace {
+    font-family: monospace;
+}

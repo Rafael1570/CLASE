@@ -1,0 +1,18 @@
+body {
+    font-family: Georgia, serif;
+    margin: 40px;
+}
+
+/* Contenedor con borde para identificarlo */
+.contenedor {
+    border: 2px solid green;
+    padding: 15px;
+    margin: 20px 0;
+}
+
+/* Primera línea SOLO de los párrafos dentro del contenedor */
+.contenedor p::first-line {
+    font-size: 30px;
+    font-weight: bold;
+    color: green;
+}

@@ -1,0 +1,66 @@
+body {
+    margin: 30px;
+    font-family: Arial, sans-serif;
+}
+header{
+     background-color: #004080;;
+}
+h1{
+    font-size: 1,8em;
+    text-align: center;
+    color: white;
+}
+.agenda {
+    border-collapse: collapse;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+.esquina-vacia
+.horario
+.azul{
+    background-color: #d06a00;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-align: center;
+    width: 25px;
+    height: 20px;
+    border: solid 1px rgb(0, 0, 0);
+
+}
+.agenda table td{
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 44px;
+    border: 1px solid white;
+}
+.encabezado{
+    background-color: #0066cc;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    border: solid 1px white;
+}
+.horario{
+    background-color: #cce0ff;
+    color: #004080;
+    font-weight: bold;
+    text-align: center;
+    width: 70px;
+    height: 40px;
+    border: solid 1px white;
+}
+.azul{  
+    background-color: #99ccff;
+    color: #004080;
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    border: solid 1px white;
+}
+
+/* Paleta de colores utilizada:
+ #f4f4f4, #004080, #0066cc, #cce0ff, #99ccff, #66b2ff

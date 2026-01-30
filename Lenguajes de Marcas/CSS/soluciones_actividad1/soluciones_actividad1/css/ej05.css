@@ -1,0 +1,25 @@
+body {
+    font-family: Georgia, serif;
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* Peso más ligero */
+.lighter {
+    font-weight: lighter;
+}
+
+/* Peso normal */
+.normal {
+    font-weight: normal;
+}
+
+/* Peso en negrita */
+.bold {
+    font-weight: bold;
+}
+
+/* Peso más grueso que el padre */
+.bolder {
+    font-weight: bolder;
+}

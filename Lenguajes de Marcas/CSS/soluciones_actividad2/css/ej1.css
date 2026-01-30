@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 30px;
+  background-color: #f3f1d6; /* beige claro */
+  font-family: Georgia, serif;
+}
+
+.pagina {
+  border: 2px solid #7a1f5c; /* morado oscuro */
+  padding: 25px 35px;
+  max-width: 720px;
+  background-color: #f3f1d6; /* mismo fondo que el body */
+}
+
+h1 {
+  color: blue;
+  margin-top: 0;
+  font-size: 28px;
+}
+
+h2 {
+  color: green;
+  margin-top: 22px;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+ul, ol {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+li {
+  margin: 4px 0;
+}
+
+p {
+  margin: 10px 0;
+  line-height: 1.35;
+}
+
+.destacado {
+  color: #c0392b; /* rojo */
+  font-style: italic;
+}

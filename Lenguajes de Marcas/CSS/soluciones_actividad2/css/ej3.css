@@ -1,0 +1,57 @@
+body {
+    font-family: Georgia, serif;
+    margin: 40px;
+}
+
+/* Tabla centrada */
+.tabla-personas {
+    border-collapse: collapse;
+    margin: 0 auto; /* centra la tabla */
+    width: 700px;
+}
+
+/* Bordes de la tabla */
+.tabla-personas,
+.tabla-personas th,
+.tabla-personas td {
+    border: 2px solid #333;
+}
+
+/* Encabezados */
+.tabla-personas th {
+    color: blue;
+    font-size: 18px;
+    padding: 10px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+/* Celdas */
+.tabla-personas td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Colores de filas */
+.fila1 {
+    background-color: #a7d8d8;
+}
+
+.fila2 {
+    background-color: #c7f2a4;
+}
+
+.fila3 {
+    background-color: #b3b3e6;
+}
+
+.fila4 {
+    background-color: #3f4097;
+    color: #000;
+}
+
+/* Nota */
+.nota {
+    margin-top: 20px;
+    font-size: 14px;
+}

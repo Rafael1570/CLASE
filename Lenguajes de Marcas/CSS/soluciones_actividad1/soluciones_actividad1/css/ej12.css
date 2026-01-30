@@ -1,0 +1,19 @@
+body {
+    font-family: Georgia, serif;
+    margin: 40px;
+}
+
+/* Espaciado normal */
+.normal {
+    letter-spacing: normal;
+}
+
+/* Espaciado positivo */
+.espacio4 {
+    letter-spacing: 4px;
+}
+
+/* Espaciado negativo */
+.espacio-2 {
+    letter-spacing: -2px;
+}

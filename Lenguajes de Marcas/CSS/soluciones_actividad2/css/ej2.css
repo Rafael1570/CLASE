@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 30px;
+    font-family: Georgia, serif;
+    background-color: #f6f4dc;
+}
+
+/* Contenedor principal */
+.pagina {
+    border-left: 2px solid #7a1f5c;
+    border-right: 2px solid #7a1f5c;
+    padding: 20px;
+}
+
+/* Título principal */
+h1 {
+    background-color: #9b9ad6;
+    color: black;
+    margin: 0 0 20px 0;
+    padding: 10px;
+    font-size: 28px;
+}
+
+/* Subtítulo */
+h2 {
+    background-color: #b7e8c2;
+    color: black;
+    padding: 8px;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+/* Primer párrafo */
+.parrafo1 {
+    color: blue;
+    margin-bottom: 10px;
+}
+
+/* Segundo párrafo */
+.parrafo2 {
+    color: blue;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+/* Texto destacado */
+.resaltado {
+    color: red;
+    font-weight: bold;
+}
+
+/* Subrayado */
+.subrayado {
+    background-color: yellow;
+}
+
+/* Caja con borde */
+.caja {
+    border: 3px solid blue;
+    padding: 15px;
+    background-color: #f6f4dc;
+}

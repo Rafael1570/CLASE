@@ -1,0 +1,35 @@
+body {
+    font-size: Arial, Helvetica, sans-serif;
+    background-color: #f5f5d8;
+}
+h1 {
+    font-size: 28px;
+    background-color: #cddc7a;
+}
+h2 {
+    font-size: 20px;
+    background-color:#9ad18b;
+}
+.tabla-ej1 {
+    width: 100%;
+    border-collapse: collapse; 
+    border-spacing: 3px;
+}
+.tabla-ej1 th, 
+.tabla-ej1 td {
+    border: 1px solid #888; /* Borde fino gris */
+    text-align: center;
+}
+.cuadrado {
+    border: 2px solid black;
+    padding: 20px;
+    width: 500px;
+    background-color: #e6f2ff
+}
+.cabezera, th {
+    text-align : center;
+    background-color: #9ad18b;
+}
+.tabla-ej1 tbody td:nth-child(1) {background-color: #e6f2ff;}
+.tabla-ej1 tbody td:nth-child(2) {background-color: #d9ead3;}
+.tabla-ej1 tbody td:nth-child(3) {background-color: #fce5cd;}

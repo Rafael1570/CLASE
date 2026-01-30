@@ -1,0 +1,20 @@
+body {
+    font-family: Georgia, serif;
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* Estilo normal */
+.normal {
+    font-style: normal;
+}
+
+/* Estilo cursiva */
+.italic {
+    font-style: italic;
+}
+
+/* Estilo oblicuo */
+.oblique {
+    font-style: oblique;
+}
