@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Asegura que el padding y el borde no afecten el ancho total */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Color de fondo gris claro para toda la página */
+    color: #333;
+}
+
+/* --- Contenedor Principal --- */
+#container {
+    width: 960px;
+    margin: 20px auto; /* Centra el contenedor en la página */
+    background-color: #ffffff; /* Fondo blanco para el área de contenido */
+    border: 1px solid #ccc;
+}
+
+/* --- Encabezado --- */
+h1 {
+    background-color: #2c3e50; /* Fondo azul oscuro/gris */
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* --- Navegación Superior --- */
+nav {
+    background-color: #2c3e50; /* Mismo fondo que el encabezado */
+    border-bottom: 4px solid #c0392b; /* Borde inferior rojo */
+    padding-left: 20px;
+    overflow: hidden; /* Contiene los elementos flotantes */
+}
+
+nav div {
+    float: left;
+    color: white;
+    padding: 15px 20px;
+    font-size: 16px;
+}
+
+/* --- Barra Lateral Izquierda --- */
+aside {
+    float: left;
+    width: 20%; /* Ocupa el 20% del ancho del contenedor */
+    background-color: #ecf0f1; /* Fondo gris muy claro */
+    padding: 20px 0;
+    height: 650px; /* Altura fija para que coincida con la sección principal */
+}
+
+aside ul {
+    list-style-type: none; /* Elimina los puntos de la lista */
+}
+
+aside ul li {
+    padding: 15px 20px;
+    border-bottom: 1px solid #bdc3c7; /* Línea separadora */
+}
+
+/* --- Sección Principal de Contenido --- */
+section {
+    float: left;
+    width: 80%; /* Ocupa el 80% restante del ancho */
+    padding: 20px;
+}
+
+/* --- Artículos (Columnas) --- */
+section article {
+    float: left;
+    width: 31.33%; /* Ancho para cada una de las 3 columnas */
+    margin-right: 3%;
+    padding: 15px;
+    border: 1px solid #ccc;
+}
+
+/* Elimina el margen derecho del último artículo para que no se desborde */
+section article:last-child {
+    margin-right: 0;
+}
+
+/* --- Contenido dentro de los Artículos --- */
+section article img {
+    display: block; /* Permite centrar la imagen con márgenes automáticos */
+    margin: 0 auto 15px auto; /* Centra la imagen y añade espacio debajo */
+    width: 100px; /* Ancho fijo para el logo */
+}
+
+section article p {
+    font-size: 14px;
+    line-height: 1.6; /* Espaciado entre líneas para mejor legibilidad */
+    text-align: justify; /* Justifica el texto */
+    margin-bottom: 15px;
+}
+
+/* --- Pie de Página --- */
+footer {
+    clear: both; /* Limpia los floats para que el footer se posicione correctamente */
+    background-color: #34495e; /* Fondo gris oscuro */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+footer a {
+    color: #e74c3c; /* Color rojo para el enlace */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline; /* Subrayado al pasar el ratón */
+}

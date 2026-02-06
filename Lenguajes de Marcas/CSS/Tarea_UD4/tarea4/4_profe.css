@@ -1,0 +1,80 @@
+body{
+
+}
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border: 1px solid red;
+    margin: 1,5px;
+}
+#container{
+    width:80%;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    overflow: hidden;
+}
+h1{
+    background-color: #444;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+nav{
+    position: sticky;
+    top:0;
+    background-color: darkblue;
+    color: white;
+    font-weight: bold;
+    border-bottom: 3px solid red;
+    text-align: center;
+}
+nav div{
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav div:hover{
+    background-color: yellow;
+}
+aside {
+    float: left;
+    width: 20%; /* Ocupa el 20% del ancho del contenedor */
+    background-color: #ecf0f1; /* Fondo gris muy claro */
+    padding: 20px 0;
+    box-sizing: border-box;
+    min-height: 600px; /* Altura fija para que coincida con la sección principal */
+}
+
+aside ul {
+    padding: 10px 0;
+    list-style-type: none; /* Elimina los puntos de la lista */
+}
+
+aside ul li {
+    padding: 10px 20px;
+    border-bottom: 1px solid #bdc3c7; /* Línea separadora */
+}
+section {
+    float: right;
+    width: 75%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+article {
+    width:30%;
+    margin: 1.5%;
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 2px 5px 5px gainsboro;
+    text-align: justify;
+    float: left;
+}
+article div{
+    text-align:justify;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+article img{
+    border: 1px solid #ccc;
+}
