@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>MediConnect - Panel Médico</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <aside class="sidebar">
+            <div class="brand">✚ MediConnect</div>
+            <nav class="menu">
+                <a class="active">Resumen</a>
+                <a>Pacientes</a>
+                <a>Citas</a>
+                <a>Mensajes</a>
+            </nav>
+            <div class="user-card">
+                <span>Dr. Canca</span>
+            </div>
+        </aside>
+
+        <main class="main-content">
+            <header class="top-bar">
+                <h2>Panel de Control</h2>
+                <button class="btn-primary">+ Nueva Cita</button>
+            </header>
+
+            <section class="stats-row">
+                <div class="stat-card">
+                    <span class="label">Consultas hoy</span>
+                    <span class="value">12</span>
+                </div>
+                <div class="stat-card">
+                    <span class="label">Pendientes</span>
+                    <span class="value">4</span>
+                </div>
+                <div class="stat-card urgent">
+                    <span class="label">Urgencias</span>
+                    <span class="value">2</span>
+                </div>
+            </section>
+
+            <section class="patient-section">
+                <h3>Próximos Pacientes</h3>
+                <div class="patient-list">
+                    <article class="patient-item">
+                        <div class="p-info">
+                            <strong>Ana Martínez</strong>
+                            <span>Consulta General • 10:30 AM</span>
+                        </div>
+                        <button class="btn-outline">Llamar</button>
+                    </article>
+                    <article class="patient-item">
+                        <div class="p-info">
+                            <strong>Carlos Ruiz</strong>
+                            <span>Revisión Post-Op • 11:15 AM</span>
+                        </div>
+                        <button class="btn-outline">Llamar</button>
+                    </article>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
