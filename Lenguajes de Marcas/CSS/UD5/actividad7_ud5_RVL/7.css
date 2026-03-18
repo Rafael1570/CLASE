@@ -1,0 +1,25 @@
+.navbar {
+    background-color: #343a40;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.card-header {
+    background-color: #28a745;
+    color: white;
+}
+
+.form-control {
+    margin-bottom: 10px;
+}
+
+.btn {
+    width: 100px;
+    margin-top: 10px;
+}
+
+.table-dark {
+    background-color: #343a40;
+}

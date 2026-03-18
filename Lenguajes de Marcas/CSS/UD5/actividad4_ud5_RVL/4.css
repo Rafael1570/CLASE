@@ -1,0 +1,33 @@
+.seccion {
+    background-color: #28a745;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.contacto {
+    background-color: #28a745;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.footer {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-body {
+    text-align: justify;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
