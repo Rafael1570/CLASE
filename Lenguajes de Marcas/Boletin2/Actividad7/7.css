@@ -1,0 +1,25 @@
+body {
+    font-family: serif;
+    text-align: center;
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 8px 20px;
+}
+
+textarea {
+    width: 250px;
+    height: 25px;
+    resize: none;
+}
+
+button {
+    margin-top: 10px;
+}
