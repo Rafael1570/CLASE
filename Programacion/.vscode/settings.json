@@ -1,9 +1,10 @@
 {
     "java.project.sourcePaths": [
+        "UD_4/ProgramacionEjerciciosUnidad4-main/ProgramacionEjerciciosUnidad4-main/src/com/ejud4/ej18",
         "JAVA/examenRVL/ejercicio1/principal",
         "JAVA/UNIDAD2",
         "JAVA/EXAMEN/UNIDAD1/EJERCICIOS_RAFAELVEGALIBRERO",
-        "EJERCICIO_REPASO_UD4/Ejercicio15",
-        "EJERCICIO_EXAMEN_UD4_REPASO/EJERCICIO15/src"
-    ]
+        ""
+    ],
+    "java.debug.settings.onBuildFailureProceed": true
 }
