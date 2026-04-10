@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>lista de clase</title>
+    <link rel="stylesheet" href="6.css">
+</head>
+<body>
+
+    <div class="contenedor">
+        <h1>añade nuevos elementos a la lista cada vez que se pulsa el botón:</h1>
+
+        <h3>lista de clase:</h3>
+
+        <ul id="listaClase">
+            <li>juan amador rubio</li>
+            <li>gonzalo astudillo ortega</li>
+            <li>luis blanco moyano</li>
+            <li>ana cabezas berjillos</li>
+        </ul>
+
+        <h3>nombre:</h3>
+
+        <textarea id="nuevoNombre" placeholder="nuevo nombre"></textarea>
+        <br>
+        <button onclick="anadirNombre()">añadir nombre</button>
+        <button onclick="eliminarNombre()">Eliminar Ultimo</button>
+        <button onclick="eliminarTodo()">Eliminar Todo</button>
+    </div>
+
+    <script src="6.js"></script>
+
+</body>
+</html>

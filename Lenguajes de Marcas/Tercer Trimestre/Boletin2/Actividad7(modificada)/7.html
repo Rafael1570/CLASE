@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>tabla dinámica</title>
+    <link rel="stylesheet" href="7.css">
+</head>
+<body>
+
+    <h1>añade casillas a la tabla</h1>
+
+    <table id="tabla">
+        <tr>
+            <th>alumno</th>
+            <th>calificación</th>
+            <th>Accion</th>
+        </tr>
+        <tr id="1">
+            <td>juan</td>
+            <td>5</td>
+            <td><button onclick="eliminar(1)">eliminar</button></td>
+        </tr>
+        <tr id="2">
+            <td>maria</td>
+            <td>7</td>
+            <td><button onclick="eliminar(2)">eliminar</button></td>
+        </tr>
+        <tr id="3">
+            <td>pedro</td>
+            <td>9</td>
+            <td><button onclick="eliminar(3)">eliminar</button></td>
+        </tr>
+        <tr id="4">
+            <td>ana</td>
+            <td>6</td>
+            <td><button onclick="eliminar(4)">eliminar</button></td>
+        </tr>
+    </table>
+
+    <h3>nombre del alumno:</h3>
+    <textarea id="nombre" placeholder="nombre"></textarea>
+
+    <h3>calificación:</h3>
+    <textarea id="nota" placeholder="nota"></textarea>
+
+    <br>
+    <button onclick="anadir()">añadir elemento</button>
+
+    <script src="7.js"></script>
+
+</body>
+</html>
