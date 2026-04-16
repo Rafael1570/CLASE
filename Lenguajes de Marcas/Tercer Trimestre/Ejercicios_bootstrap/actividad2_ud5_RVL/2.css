@@ -1,0 +1,12 @@
+.block {
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+.red { 
+    background-color: red;
+    color: black;
+}
+.blue { background-color: blue; color: white;}
+.yellow { background-color: yellow; color: black;}
+.cian { background-color: cyan; color: black;}

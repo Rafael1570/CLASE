@@ -1,0 +1,18 @@
+
+
+img{
+    width: 150px;
+}
+button{
+width: 120px;
+height: 40px;
+border-radius: 10px;
+background-color:aquamarine;
+}
+
+
+#main{
+    width: 50%;
+    margin:0 auto;
+    text-align: center;
+}

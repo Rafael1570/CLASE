@@ -1,0 +1,22 @@
+.blue {
+    background-color: blue;
+}
+.red {
+    background-color: red;
+}
+.black {
+    background-color: black;
+}
+.green {
+    background-color: green;
+}
+.yellow {
+    background-color: yellow;
+} 
+.caja {
+    height: 80px;
+}
+.caja-2x {
+    height: 160px;
+}
+

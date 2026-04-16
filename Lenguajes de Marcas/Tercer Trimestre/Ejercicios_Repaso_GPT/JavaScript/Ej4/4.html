@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validación de Formulario</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        input, button {
+            padding: 10px;
+            font-size: 16px;
+        }
+        button {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .mensaje {
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .error {
+            color: red;
+        }
+        .exito {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Formulario de Validación</h1>
+    
+    <!-- Formulario -->
+    <input type="text" id="nombreInput" placeholder="Escribe tu nombre">
+    <button id="enviarBtn">Enviar</button>
+
+    <!-- Mensaje de resultado -->
+    <p id="mensaje" class="mensaje"></p>
+
+    <script>
+        // Capturar elementos del formulario
+        const nombreInput = document.getElementById("nombreInput");
+        const enviarBtn = document.getElementById("enviarBtn");
+        const mensaje = document.getElementById("mensaje");
+
+        // Evento de clic para enviar el formulario
+        enviarBtn.addEventListener("click", function() {
+            const nombre = nombreInput.value;
+
+            if (nombre === "") {
+                // Si el campo está vacío, mostrar mensaje de error
+                mensaje.textContent = "Por favor, ingresa tu nombre.";
+                mensaje.className = "mensaje error";  // Cambiar clase a error
+            } else {
+                // Si el campo tiene texto, mostrar mensaje de éxito
+                mensaje.textContent = "¡Formulario enviado con éxito!";
+                mensaje.className = "mensaje exito";  // Cambiar clase a éxito
+            }
+
+            // Limpiar el campo de texto
+            nombreInput.value = "";
+        });
+    </script>
+
+</body>
+</html>
