@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"com.ejemplo.biblioteca","l":"Documento"},{"p":"com.ejemplo.biblioteca","l":"Libro"},{"p":"com.ejemplo.biblioteca","l":"Main"},{"p":"com.ejemplo.biblioteca","l":"NumeroPaginasInvalidoException"}];updateSearchResults();
