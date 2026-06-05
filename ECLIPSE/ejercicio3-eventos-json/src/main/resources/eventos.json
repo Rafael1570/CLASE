@@ -1,0 +1,20 @@
+{
+  "E001" : {
+    "id" : "E001",
+    "titulo" : "Reunión de estrategia",
+    "fecha" : "2024-06-15",
+    "completado" : false
+  },
+  "E002" : {
+    "id" : "E002",
+    "titulo" : "Conferencia de tecnología",
+    "fecha" : "2024-07-20",
+    "completado" : true
+  },
+  "+E003" : {
+    "id" : "+E003",
+    "titulo" : "Novia Borde",
+    "fecha" : "05/06/2026",
+    "completado" : true
+  }
+}

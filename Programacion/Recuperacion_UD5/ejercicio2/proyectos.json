@@ -1,0 +1,46 @@
+[ {
+  "nombre" : "Desarrollo de producto",
+  "líder" : "Maria",
+  "duración" : 14,
+  "presupuesto" : 200000.0
+}, {
+  "nombre" : "Campaña de marketing",
+  "líder" : "Alberto",
+  "duración" : 6,
+  "presupuesto" : 50000.0
+}, {
+  "nombre" : "Optimización de procesos",
+  "líder" : "Maria",
+  "duración" : 9,
+  "presupuesto" : 150000.0
+}, {
+  "nombre" : "Expansión internacional",
+  "líder" : "Maria",
+  "duración" : 18,
+  "presupuesto" : 300000.0
+}, {
+  "nombre" : "Integración de sistemas",
+  "líder" : "Alberto",
+  "duración" : 24,
+  "presupuesto" : 120000.0
+}, {
+  "nombre" : "Actualización de la infraestructura",
+  "líder" : "Ana",
+  "duración" : 30,
+  "presupuesto" : 450000.0
+}, {
+  "nombre" : "Proyecto de seguridad cibernética",
+  "líder" : "Carlos",
+  "duración" : 12,
+  "presupuesto" : 220000.0
+}, {
+  "nombre" : "Lanzamiento de nueva plataforma",
+  "líder" : "Alberto",
+  "duración" : 18,
+  "presupuesto" : 250000.0
+}, {
+  "nombre" : "Proyecto de energía renovable",
+  "líder" : "Maria",
+  "duración" : 36,
+  "presupuesto" : 500000.0
+} ]
